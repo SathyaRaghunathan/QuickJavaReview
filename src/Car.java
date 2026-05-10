@@ -15,4 +15,10 @@ public class Car {
         System.out.println("You stopped the engine.");
         isRunning = false;
     }
+    void drive(){
+        System.out.println("You are driving the " + model);
+    }
+    void brake(){
+        System.out.println("You are breaking the " + model);
+    }
 }

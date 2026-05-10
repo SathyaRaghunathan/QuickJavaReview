@@ -13,11 +13,12 @@ public class App {
         //Random random = new Random();
         Car SathyasCar = new Car();
         //You're effectively calling 1.Type 2. Variable Name 3. Constructor
-        System.out.println(SathyasCar.isRunning);
+        
         SathyasCar.start();
-        System.out.println(SathyasCar.isRunning);
+        SathyasCar.drive();
+        SathyasCar.brake();
         SathyasCar.stop();
-        System.out.println(SathyasCar.isRunning);
+        
 
 
 
